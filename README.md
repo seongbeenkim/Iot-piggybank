@@ -18,10 +18,10 @@ detect_intent_texts.py  ->  pigmong_detect_intent_texts.py
 aiy_board.py  ->  pigmong_board.py
 //i deleted some parts that i don't use.
 
-aiy_cloudspeech.py  ->  pigmong_cloudspeech.py   
+aiy_cloudspeech.py  ->  pigmong_cloudspeech.py
 //i added few lines for the neopixel ring and servo motor.
 
-cloudspeech_pre_demo.py  ->  pigmong246.py 
+cloudspeech_pre_demo.py  ->  pigmong246.py
 //this is the main code!!!.
 
 As with the project, it would be great to hear your thoughts, questions, suggestions. 
