@@ -1,0 +1,36 @@
+the steps for Auto-start
+# 1. make .service file
+ and put the code below
+sudo vi /etc/systemd/system/~~~.service
+# 2. enable .service file
+#systemctl enable ~~~.service
+# 3. start the service
+#sudo service pigmong start
+# 4. reboot
+#sudo reboot
+# 5. check if the service is on
+#sudo systemctl status pigmong.service
+# if you want to stop the service
+#sudo systemctl stop pigmong.service 
+# if you want to disable the service
+#sudo systemctl disable pigmong.service
+ 
+[Unit]
+Description=Pigmong
+Wants=network-online.target
+After=network-online.target
+Wants=network.target ntpdate.service
+After=network.target ntpdate.service
+
+[Service]
+Environment=DISPLAY=:0
+ExecStartPre=/bin/sleep 10
+ExecStart=/usr/bin/python3 -u /home/pi/project246/pigmong246.py
+WorkingDirectory=/home/pi/project246
+StandardOutput=inherit
+StandardError=inherit
+Restart=always
+User=pi
+
+[Install]
+WantedBy=multi-user.target
