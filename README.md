@@ -10,11 +10,8 @@ the main code are written with python in Ubuntu Linux and the code for hardware 
 i refered to the left side codes for the project!
 
 aiy_audio.py  ->  pigmong_audio.py   # it's just the same code as the former one! i wanted to classify code files that i used!
-
 aiy_board.py  ->  pigmong_board.py   # i deleted some parts that i don't use!
-
 aiy_cloudspeech.py  ->  pigmong_cloudspeech.py   # i added few lines for the neopixel ring and servo motor
-
 cloudspeech_pre_demo.py  ->  pigmong246.py   # this is the main code!!!
 
 As with the project, it would be great to hear your thoughts, questions, suggestions. 
