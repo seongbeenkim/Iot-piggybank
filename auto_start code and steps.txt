@@ -25,8 +25,8 @@ After=network.target ntpdate.service
 [Service]
 Environment=DISPLAY=:0
 ExecStartPre=/bin/sleep 10
-ExecStart=/usr/bin/python3 -u /home/pi/project246/pigmong246.py
-WorkingDirectory=/home/pi/project246
+ExecStart=/usr/bin/python3 -u /home/pi/project246/pigmong246.py # your file path
+WorkingDirectory=/home/pi/project246 # your working directory
 StandardOutput=inherit
 StandardError=inherit
 Restart=always
