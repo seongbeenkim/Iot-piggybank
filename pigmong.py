@@ -5,7 +5,7 @@ import logging
 import subprocess
 import os, random
 import time
-import pigmong246_db
+import pigmong_db
 import sys
 import smbus
 import pygame
