@@ -11,12 +11,12 @@
 __api를 모두 연결시키는 자세한 방법은 적지 않고 어떤 api가 필요한지에 대해서만 적겠습니다.__   
 __api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 설명이 되어있어 따라하시면 됩니다.__
 > You need to set up on your Raspberry pi for api before using the project.   
-> So i'm going to write down what kind of api you need for the project, not in detail!   
+> So i'm going to write down what kind of api you need for the project.   
 > How to connect api is well described on the websites below or google.
 
 
 1. Download aiyprojects-raspbian.img    
-    i've used one of the ones released in 2018.
+    i've used one of the ones released in 2018.   
     if yours doesn't work, it would be better to download older versions!   
 https://github.com/google/aiyprojects-raspbian/releases   
 
@@ -39,14 +39,25 @@ https://console.aws.amazon.com
 
 ### API Reference   
 
+
 ### Test   
 Describe and show how to run the tests with code examples.
 ### How to use?   
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 ### Contribute   
-Let people know how they can contribute into your project. A contributing guideline will be a big plus.
+Seongbeen Kim : Software Developer(Piggybank)   
+Jaewoo Lee : Software Developer(Web application)   
+jimeyong Lee : Desinger(App, Introduction Video)   
+
 ### Credits   
-Give proper credits. This could be a link to any repo which inspired you to build this project, any blogposts or links to people who contrbuted in this project.
+https://omoney.kbstar.com/quics?page=C045893#loading - KB's digital piggybank, Liiv.   
+https://www.asb.co.nz/banking-with-asb/clever-kash.html - ASB's new cashless moneybox, Clever-kash.   
+https://blog.prototypr.io/pig-2-620555b1479d - Pig eBank 2.   
+https://wiggyapp.com/ - Wiggy.   
+https://www.kickstarter.com/projects/187482891/ernittm-the-smart-piggy-bank - ERNIT   
+   
+we've got inspired from these piggybanks, especially a piggybank design from eBank 2.   
+
 ### License   
 
 
