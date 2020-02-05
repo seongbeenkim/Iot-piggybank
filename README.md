@@ -29,9 +29,9 @@ https://dialogflow.cloud.google.com/
 4. Make your own AWS EC2 server and RDS for Database   
 https://console.aws.amazon.com   
 
-### Screenchots   
+### Service v   
 
-[![Video Label](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw?t=0s)
+[![Service Introduction Video – Pigmong](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw "Service Introduction Video – Pigmong")
  
 스크린샷이나 동영상 넣자   
 
