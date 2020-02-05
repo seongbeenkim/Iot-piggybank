@@ -45,9 +45,9 @@ Describe and show how to run the tests with code examples.
 ### How to use?   
 If people like your project they’ll want to learn how they can use it. To do so include step by step guide to use your project.
 ### Contribute   
-Seongbeen Kim : Software Developer(Piggybank)   
-Jaewoo Lee : Software Developer(Web application)   
-jimeyong Lee : Desinger(App, Introduction Video)   
+* Seongbeen Kim : Software Developer(Piggybank)   
+* Jaewoo Lee : Software Developer(Web application)   
+* jimeyong Lee : Desinger(App, Introduction Video)   
 
 ### Credits   
 https://omoney.kbstar.com/quics?page=C045893#loading - KB's digital piggybank, Liiv.   
