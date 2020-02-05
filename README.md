@@ -16,7 +16,7 @@ __api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽�
 
 
 1. Download aiyprojects-raspbian.img    
-    i've tested "AIY Kits Release 2018-11-16" 
+    i've used one of the ones released in 2018.
     if yours doesn't work, it would be better to download older versions!   
 https://github.com/google/aiyprojects-raspbian/releases   
 
@@ -29,11 +29,9 @@ https://dialogflow.cloud.google.com/
 4. Make your own AWS EC2 server and RDS for Database   
 https://console.aws.amazon.com   
 
-### Service v   
+### Service Introduction Video
 
 [![Service Introduction Video – Pigmong](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw "Service Introduction Video – Pigmong")
- 
-스크린샷이나 동영상 넣자   
 
 ### Features   
 
