@@ -31,8 +31,7 @@ https://console.aws.amazon.com
 
 ### Screenchots   
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
- {% include 파일명.html id="유튜브동영상url" %}  
+[![Video Label](http://img.youtube.com/vi/uLR1RNqJ1Mw/0.jpg)](https://youtu.be/uLR1RNqJ1Mw?t=0s) Video Label
  
 스크린샷이나 동영상 넣자   
 
