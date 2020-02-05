@@ -12,12 +12,12 @@ __api를 모두 연결시키는 자세한 방법은 적지 않고 어떤 api가 
 __api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 설명이 되어있어 따라하시면 됩니다.__
 > You need to set up on your Raspberry pi for api before using the project.   
 > So i'm going to write down what kind of api you need for the project, not in detail!   
-> How to connect api is well described on the api's website or google.
+> How to connect api is well described on the websites below or google.
 
 
 1. Download aiyprojects-raspbian.img    
-    not the latest one!   
-    it would be better to download older versions!   
+    i've tested "AIY Kits Release 2018-11-16" 
+    if yours doesn't work, it would be better to download older versions!   
 https://github.com/google/aiyprojects-raspbian/releases   
 
 2. Get Credentials for the Google Cloud api(Google cloud speech, tts, stt)   
@@ -31,6 +31,9 @@ https://console.aws.amazon.com
 
 ### Screenchots   
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/" frameborder="0" allowfullscreen></iframe>
+ {% include 파일명.html id="유튜브동영상url" %}  
+ 
 스크린샷이나 동영상 넣자   
 
 ### Features   
