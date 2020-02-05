@@ -31,7 +31,7 @@ https://console.aws.amazon.com
 
 ### Service Introduction Video
 
-[![Service Introduction Video – Pigmong](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw?t=79s "Service Introduction Video – Pigmong")
+[![Service Introduction Video – Pigmong](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw?t=69s "Service Introduction Video – Pigmong")
 
 ### Features   
 
