@@ -1,0 +1,190 @@
+
+  /* h1 {
+    text-align: center;
+    color: #FFF;
+    position: relative;
+    top: 100px;
+    font-family: sans-serif;
+    font-size: 48px;
+    margin: 0;
+    letter-spacing: 9.5px;
+  } */
+  .fireworks {
+    /* height: 100vh; */
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  #leftfire{
+    position: absolute;
+    left:41px;
+      /* margin-right:250px; */
+  }
+  #rightfire{
+    position: absolute;
+    left:330px;
+      /* margin-left:-50px; */
+  }
+  .fireworks .firework {
+    position: relative;
+    top: 0px;
+    left: 0px;
+    /* margin: 0px 50px; */
+  }
+  .fireworks .firework:before {
+    content: "";
+    display: block;
+    border-radius: 5px;
+    background-color: skyblue;
+    width: 5px;
+    height: 0px;
+    will-change: transform;
+    transform: translateY(450px);
+    animation: fireworkstart 2s ease-out infinite;
+  }
+
+  /* 터지는 위치 */
+  .fireworks .firework .explosion {
+    position: absolute; 
+    top: 200px;
+    width: 5px;
+    height: 20px;
+    opacity: 0;
+    transform-origin: top center;
+    will-change: transform;
+    animation: explosion 1s linear 2s infinite;
+  }
+  .fireworks .firework .explosion:nth-child(1) {
+    transform: rotate(0deg);
+  }
+  .fireworks .firework .explosion:nth-child(2) {
+    transform: rotate(90deg);
+  }
+  .fireworks .firework .explosion:nth-child(3) {
+    transform: rotate(180deg);
+  }
+  .fireworks .firework .explosion:nth-child(4) {
+    transform: rotate(-90deg);
+  }
+  .fireworks .firework .explosion:nth-child(5) {
+    transform: rotate(45deg);
+  }
+  .fireworks .firework .explosion:nth-child(6) {
+    transform: rotate(-45deg);
+  }
+  .fireworks .firework .explosion:nth-child(7) {
+    transform: rotate(135deg);
+  }
+  .fireworks .firework .explosion:nth-child(8) {
+    transform: rotate(225deg);
+  }
+  .fireworks .firework .explosion .spark {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    will-change: transform;
+    animation: explosion2 1s ease-in-out 2s infinite;
+  }
+  .fireworks .firework .explosion .spark.red {
+    background-color: #E91E63;
+  }
+  .fireworks .firework .explosion .spark.blue {
+    background-color: skyblue;
+  }
+  .fireworks .firework .explosion .spark.green {
+    background-color: limegreen;
+  }
+  .fireworks .firework .explosion .spark.yellow {
+    background-color: yellow;
+  }
+  @keyframes fireworkstart {
+    0% {
+      height: 0px;
+      transform: translateY(450px);
+    }
+    50% {
+      height: 50px;
+    }
+    75% {
+      height: 30px;
+    }
+    100% {
+      height: 0;
+      transform: translateY(200px);
+    }
+  }
+  @keyframes explosion {
+    0% {
+      height: 0px;
+      opacity: 0;
+    }
+    50% {
+      height: 25px;
+      opacity: 1;
+    }
+    100% {
+      height: 0px;
+      opacity: 0;
+    }
+  }
+  @keyframes explosion2 {
+    0% {
+      transform: translateY(0px);
+    }
+    50% {
+      transform: translateY(5px);
+    }
+    75% {
+      transform: translateY(30px);
+    }
+    100% {
+      transform: translateY(70px);
+    }
+  }
+  .gradient {
+    width: 100%;
+    height: 100%;
+    position: relative;
+    /* background: linear-gradient(270deg, #f4a23d, #626dea, #423939, #51c5ef);
+    background-size: 800% 800%;
+    -webkit-animation: colors 30s ease infinite;
+    -moz-animation: colors 30s ease infinite;
+    animation: colors 15s ease infinite; */
+  }
+  @-webkit-keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @-moz-keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  @keyframes colors {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+  
