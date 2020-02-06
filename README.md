@@ -45,6 +45,15 @@ https://console.aws.amazon.com
 
 ### API Reference   
 
+### App Storyboard   
+<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="700px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
+
+### Hardware Circuit Diagram   
+<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/hardware.jpeg" width="450px" height="450px" title="Hardware Circuit" alt="Hardware Circuit"></img><br/>   
+
+### Database Table
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/DB_Table.png" width="450px" height="300px" title="Database Table" alt="Database Table"></img><br/>   
+
 
 ### Test   
 Describe and show how to run the tests with code examples.
