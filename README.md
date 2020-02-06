@@ -6,11 +6,11 @@
 [![Service Introduction Video – Pigmong](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw?t=69s "Service Introduction Video – Pigmong")   
    
 > You can click the video or links below
-* [0:00 ~ 0:53 - Intro](https://youtu.be/k5D5-mXTpUw?t=0s)   
-* [0:54 ~ 1:08 - Team introduction](https://youtu.be/k5D5-mXTpUw?t=54s)   
-* [1:09 ~ 1:41 - Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)   
-* [1:42 ~ 2:43 - Service features](https://youtu.be/k5D5-mXTpUw?t=102s)   
-* [2:44 ~ 6:07 - Product demonstration](https://youtu.be/k5D5-mXTpUw?t=164s)   
+* 0:00 ~ 0:53 - [Intro](https://youtu.be/k5D5-mXTpUw?t=0s)   
+* 0:54 ~ 1:08 - [Team introduction](https://youtu.be/k5D5-mXTpUw?t=54s)   
+* 1:09 ~ 1:41 - [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)   
+* 1:42 ~ 2:43 - [Service features](https://youtu.be/k5D5-mXTpUw?t=102s)   
+* 2:44 ~ 6:07 - [Product demonstration](https://youtu.be/k5D5-mXTpUw?t=164s)   
 
 
 ### Motivation   
