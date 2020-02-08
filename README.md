@@ -42,17 +42,16 @@ https://console.aws.amazon.com
 ### Features   
 
 이 프로젝트 특징   
-
-### API Reference   
-
-### App Storyboard   
+#### App Storyboard   
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="700px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
 
-### Hardware Circuit Diagram   
+#### Hardware Circuit Diagram   
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/hardware.jpeg" width="450px" height="450px" title="Hardware Circuit" alt="Hardware Circuit"></img><br/>   
 
-### Database Table
+#### Database Table
    <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/DB_Table.png" width="450px" height="300px" title="Database Table" alt="Database Table"></img><br/>   
+
+### API Reference   
 
 
 ### Test   
