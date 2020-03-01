@@ -1,11 +1,13 @@
 # Pigmong
 > __아이들의 꾸준한 저축 실천을 위한 디지털 저금통__   
+Digial Piggy Bank for child's steady saving practices   
 
 ### Service Introduction Video
 
 [![Service Introduction Video – Pigmong](http://img.youtube.com/vi/k5D5-mXTpUw/0.jpg)](https://youtu.be/k5D5-mXTpUw?t=69s "Service Introduction Video – Pigmong")   
    
-> You can click the video or links below
+> 이미지나 아래의 링크를 클릭하시면 소개 영상을 보실 수 있습니다.   
+Please click the image or links below to watch the video
 * 0:00 ~ 0:53 - [Intro](https://youtu.be/k5D5-mXTpUw?t=0s)   
 * 0:54 ~ 1:08 - [Team introduction](https://youtu.be/k5D5-mXTpUw?t=54s)   
 * 1:09 ~ 1:41 - [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)   
@@ -14,34 +16,44 @@
 
 
 ### Motivation   
-- __어린 시절의 경제관념이 성인이 되어도 영향을 미치기에, 아이들에게 계획적인 저축습관과 돈의 가치를 바르게 인식시키기 위하여 개발하게 되었습니다.__    
+- __어린 시절의 경제관념이 성인이 되어도 영향을 미치기에, 아이들에게 계획적인 저축 습관과 돈의 가치를 올바르게 인식시키기 위하여 개발하게 되었습니다.__    
+a sense of economy of childhood influence adult's one, so we've made pigmong to make children perceive the value of money and the habit of planned saving rightly
 
 ### Installation
 - __프로젝트에 결합된 api를 사용하기 위해서는 이를 위한 설정이 필요합니다.__   
 __api를 모두 연결시키는 자세한 방법은 적지 않고 어떤 api가 필요한지에 대해서만 적겠습니다.__   
-__api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 설명이 되어있어 따라하시면 됩니다.__
-> You need to set up on your Raspberry pi for api before using the project.   
-> So i'm going to write down what kind of api you need for the project.   
-> How to connect api is well described on the websites below or google.
+__api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 설명이 되어있어 따라하시면 됩니다.__   
 
+    > You need to set up on your Raspberry pi for api before using the project.   
+      So i'm going to write down what kind of api you need for the project.   
+      How to connect api is well described on the websites below or google.
 
-1. Download aiyprojects-raspbian.img    
-    i've used one of the ones released in 2018.   
-    if yours doesn't work, it would be better to download older versions!   
-https://github.com/google/aiyprojects-raspbian/releases   
+1. "aiyprojects-raspbian.img" 를 다운로드 해주세요.   
+   저는 2018년도에 나온 버전 중 하나를 사용했습니다.   
+   만약 제대로 작동하지 않을 경우, 다운로드 받으신 버전보다 더 오래된 버전으로 하시면 될 겁니다.   
+   > Please Download "aiyprojects-raspbian.img"    
+   i've used one of the ones released in 2018.   
+   if yours doesn't work, it would be better to download older versions!   
+   
+    https://github.com/google/aiyprojects-raspbian/releases   
 
-2. Get Credentials for the Google Cloud api(Google cloud speech, tts, stt)   
-https://console.cloud.google.com/
+2. 구글 api를 사용하기 위해서는 권한이 필요하니 아래의 사이트에 가서 등록해주세요.   
+   > Get Credentials for the Google Cloud api(Google cloud speech, tts, stt)   
+      
+    https://console.cloud.google.com/
 
-3. Make your own Dialogflow and connect it to raspbian   
-https://dialogflow.cloud.google.com/
+3. 본인만의 Dialogflow를 생성해주시고 라즈베리파이에 연결해주세요.    
+   > Make your own Dialogflow and connect it to raspbian   
+   
+    https://dialogflow.cloud.google.com/
 
-4. Make your own AWS EC2 server and RDS for Database   
-https://console.aws.amazon.com   
+4. 데이터베이스를 사용하기 위해 AWS EC2, RDS를 만들어주세요.
+   > Make your own AWS EC2 server and RDS for Database   
+
+    https://console.aws.amazon.com   
 
 ### Features   
 
-이 프로젝트 특징   
 #### App Storyboard   
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="700px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
 
@@ -61,7 +73,7 @@ If people like your project they’ll want to learn how they can use it. To do s
 ### Contribute   
 * __Seongbeen Kim : Software Developer(Piggybank)__   
 * __Jaewoo Lee : Software Developer(Web application)__   
-* __jimeyong Lee : Desinger(UX/UI, Introduction Video)__   
+* __Jimeyong Lee : Desinger(UX/UI, Introduction Video)__   
 
 ### Credits   
 * https://omoney.kbstar.com/quics?page=C045893#loading - KB's digital piggybank, Liiv.   
