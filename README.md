@@ -86,18 +86,6 @@ we've got inspired from these piggybanks, especially a piggybank design from eBa
 
 ### License   
 
-
-
-Pigmong is an iot piggy bank made of Raspberry Pi 3, Adafruit Pro Trinket and Google AIY voice kit! + (servo motor, neopixel ring)
-
-the reason why i used Google AIY voice kit was because i had it, you can use other stuff instead of the kit! and the other parts of the project as well!! (i just used a aiy board, a button and basic cloudspeech code!)
-
-but to use google api like cloudspeech or dialogflow, you need to sign up for google cloud platform.
-
-the main code are written with python in Ubuntu Linux and the code for hardware is written in Arduino IDE.
-
-i refered to some code for the project!
-
 aiy_audio.py  ->  pigmong_audio.py
 detect_intent_texts.py  ->  pigmong_detect_intent_texts.py
 //they are just the same code as the former ones! i wanted to classify code files that i used.
