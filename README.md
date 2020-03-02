@@ -38,9 +38,9 @@ api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 
     https://github.com/google/aiyprojects-raspbian/releases   
 
 2. __구글 api를 사용하기 위해서는 권한이 필요하니 아래의 사이트에 가서 등록해주세요.   
-   아래의 사이트 들어가시면 "Get CREDENTIALS" 에 권한 설정하는 방법 자세히 나와있습니다.__
+   아래의 사이트 들어가시면 "GET CREDENTIALS" 에 권한 설정하는 방법 자세히 나와있습니다.__
    > Get Credentials for the Google Cloud api(Google cloud speech, tts, stt)   
-     website below will show you how to get Credentials in "Get CREDENTIALS" section  
+     website below will show you how to get Credentials in "GET CREDENTIALS" section  
      
     https://aiyprojects.withgoogle.com/voice-v1/ 
 
@@ -57,16 +57,16 @@ api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 
 ### Features   
 __ 어플리케이션을 통해서 아이가 사고 싶어하는 물건을 등록함으로써
 #### App Storyboard   
-<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="700px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
+<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="900px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
 
 #### Hardware Circuit Diagram   
-<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/hardware.jpg" width="450px" height="450px" title="Hardware Circuit" alt="Hardware Circuit"></img><br/>   
+<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/hardware.jpg" width="450px" height="450px" title="Hardware Circuit" alt="Hardware Circuit"></img><br/>
 
 #### Database Table
    <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/DB_Table.png" width="450px" height="300px" title="Database Table" alt="Database Table"></img><br/>   
 
 #### Data Flow Diagram
-   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Data_Flow_Diagram.png" width="450px" height="300px" title="Data_Flow_Diagram" alt="Data_Flow_Diagram"></img><br/>   
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Data_Flow_Diagram.png" width="800px" height="400px" title="Data_Flow_Diagram" alt="Data_Flow_Diagram"></img><br/>   
 
 ### API Reference   
 
