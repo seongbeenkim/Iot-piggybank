@@ -65,6 +65,9 @@ __ 어플리케이션을 통해서 아이가 사고 싶어하는 물건을 등�
 #### Database Table
    <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/DB_Table.png" width="450px" height="300px" title="Database Table" alt="Database Table"></img><br/>   
 
+#### Data Flow Diagram
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Data_Flow_Diagram.png" width="450px" height="300px" title="Data_Flow_Diagram" alt="Data_Flow_Diagram"></img><br/>   
+
 ### API Reference   
 
 
