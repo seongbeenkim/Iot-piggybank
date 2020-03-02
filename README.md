@@ -71,7 +71,7 @@ __ 어플리케이션을 통해서 아이가 사고 싶어하는 물건을 등�
 ### Test   
 Describe and show how to run the tests with code examples.
 ### How to use?   
-__먼저 "pigmong_db.py" 의 66번째 라인, "pigmong_main.py" 의 31번째 라인의 DB 연결 코드를 본인걸로 바꿔주셔야 합니다.__   
+__"pigmong_db.py" 의 66번째 라인, "pigmong_main.py" 의 31번째 라인의 DB 연결 코드를 본인걸로 바꿔주셔야 합니다.__   
    > First of all, you have to put your own DB information on, line 66, in pigmong_db.py and line 31, in pigmong_main.py
 ``` python
 ## line 66, in pigmong_db.py
