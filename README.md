@@ -20,36 +20,36 @@ Please click the image or links below to watch the video
 a sense of economy of childhood influence adult's one, so we've made pigmong to make children perceive the value of money and the habit of planned saving rightly
 
 ### Installation
-- __프로젝트에 결합된 api를 사용하기 위해서는 이를 위한 설정이 필요합니다.__   
-__api를 모두 연결시키는 자세한 방법은 적지 않고 어떤 api가 필요한지에 대해서만 적겠습니다.__   
-__api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 설명이 되어있어 따라하시면 됩니다.__   
+- __프로젝트에 결합된 api를 사용하기 위해서는 이를 위한 설정이 필요합니다.   
+api를 모두 연결시키는 자세한 방법은 적지 않고 어떤 api가 필요한지에 대해서만 적겠습니다.   
+api 연결하는 방법은 api 웹사이트나 구글에 검색하시면 쉽게 설명이 되어있어 따라하시면 됩니다.__   
 
     > You need to set up on your Raspberry pi for api before using the project.   
       So i'm going to write down what kind of api you need for the project.   
       How to connect api is well described on the websites below or google.
 
-1. "aiyprojects-raspbian.img" 를 다운로드 해주세요.   
+1. __"aiyprojects-raspbian.img" 를 다운로드 해주세요.   
    저는 "AIY Kits Release 2018-11-16"를 사용했습니다.   
-   만약 제대로 작동하지 않을 경우, 다운로드 받으신 버전보다 최신 버전으로 다운받으셔서 하시면 될 겁니다.   
+   만약 제대로 작동하지 않을 경우, 다운로드 받으신 버전보다 최신 버전으로 다운받으셔서 하시면 될 겁니다.__   
    > Please Download "aiyprojects-raspbian.img"    
    i've used "AIY Kits Release 2018-11-16".   
    if yours doesn't work, it would be better to download a newer version!   
    
     https://github.com/google/aiyprojects-raspbian/releases   
 
-2. 구글 api를 사용하기 위해서는 권한이 필요하니 아래의 사이트에 가서 등록해주세요.   
-   아래의 사이트 들어가시면 "Get CREDENTIALS" 에 권한 설정하는 방법 자세히 나와있습니다.
+2. __구글 api를 사용하기 위해서는 권한이 필요하니 아래의 사이트에 가서 등록해주세요.   
+   아래의 사이트 들어가시면 "Get CREDENTIALS" 에 권한 설정하는 방법 자세히 나와있습니다.__
    > Get Credentials for the Google Cloud api(Google cloud speech, tts, stt)   
      website below will show you how to get Credentials in "Get CREDENTIALS" section  
      
     https://aiyprojects.withgoogle.com/voice-v1/ 
 
-3. 본인만의 Dialogflow를 생성해주시고 라즈베리파이에 연결해주세요.    
+3. __본인만의 Dialogflow를 생성해주시고 라즈베리파이에 연결해주세요.__    
    > Make your own Dialogflow and connect it to raspbian   
    
     https://dialogflow.cloud.google.com/
 
-4. 데이터베이스를 사용하기 위해 AWS EC2, RDS를 만들어주세요. 아니면 자체 mysql로 하셔도 됩니다.
+4. __데이터베이스를 사용하기 위해 AWS EC2, RDS를 만들어주세요. 아니면 자체 mysql로 하셔도 됩니다.__
    > Make your own AWS EC2 server and RDS for Database or just use mysql in localhost
 
     https://console.aws.amazon.com   
