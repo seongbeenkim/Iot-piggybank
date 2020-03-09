@@ -56,6 +56,9 @@ API 연결하는 방법은 API 웹사이트나 구글에 검색하시면 쉽게 
 
     https://console.aws.amazon.com   
 
+5. __pymysql 사용을 위해 리눅스에서 "pip install pymysql" 을 입력하여 설치해주세요.__   
+   > Install pymysql with "pip install pymysql" in Linux   
+
 ### Features   
 __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s), 기능은 [Service features](https://youtu.be/k5D5-mXTpUw?t=102s) 에서 영상으로 보실 수 있습니다.__   
   > You can see our service introdunction [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s), features [Service features](https://youtu.be/k5D5-mXTpUw?t=102s) on youtube (in Korean)
@@ -77,7 +80,7 @@ __Google AIY Voice board 없으시면 라즈베리파이 그대로 사용하시�
 ### Demo   
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/demo.gif" width="650px" height="400px" title="Pigmong demo" alt="Pigmong demo"></img>
 
-### How to use?   
+### How to use?    
 __"pigmong_db.py" 의 66,88 번째 라인, "pigmong_main.py" 의 31번째 라인의 DB 연결 코드를 본인걸로 바꿔주셔야 합니다.__   
    > First of all, you have to put your own DB information on, line 66, 88 in pigmong_db.py and line 31, in pigmong_main.py
 ``` python
@@ -85,7 +88,7 @@ __"pigmong_db.py" 의 66,88 번째 라인, "pigmong_main.py" 의 31번째 라인
 self.cnx = pymysql.connect(host='15.164.100.60', port=3306, user='root', password='password', database='pigmong')
 ## line 31, in pigmong_main.py
 cnx = pymysql.connect(host='15.164.100.60', port=3306, user='root', password='password', database='pigmong')
-```   
+```
 ### Test   
 ``` python
 python3 pigmong_main.py
