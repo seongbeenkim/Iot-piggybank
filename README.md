@@ -101,10 +101,10 @@ __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)
      - Example   
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_alarm.gif" width="300px" height="300px" title="state_alarm" alt="state_alarm"></img><br/>   
    
-   __저금통 테스트 비디오__   
+    __저금통 테스트 비디오__   
       
-   [![Test Video – Pigmong](http://img.youtube.com/vi/WiCvG09UwmM/0.jpg)](https://youtu.be/WiCvG09UwmM?t=0s "Test Video – Pigmong")   
-     
+     [![Test Video – Pigmong](http://img.youtube.com/vi/WiCvG09UwmM/0.jpg)](https://youtu.be/WiCvG09UwmM?t=0s "Test Video – Pigmong")   
+     > Please click the image to watch the video (in Korean).
 
 - __App's Features__     
    
