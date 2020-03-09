@@ -336,7 +336,7 @@ def main():
                 cnx = data_check()
                 cursor = cnx.cursor()
  
-                query = ('select nidx from tbl_needs where writerid="y"')
+                query = ('select nidx from tbl_needs where writerid="아이0"')
                 cursor.execute(query)
                 nidx_str = cursor.fetchone()
                 if nidx_str is None:
