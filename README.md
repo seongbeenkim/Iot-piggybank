@@ -78,10 +78,10 @@ __Google AIY Voice board 없으시면 라즈베리파이 그대로 사용하시�
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/demo.gif" width="650px" height="400px" title="Pigmong demo" alt="Pigmong demo"></img>
 
 ### How to use?   
-__"pigmong_db.py" 의 66번째 라인, "pigmong_main.py" 의 31번째 라인의 DB 연결 코드를 본인걸로 바꿔주셔야 합니다.__   
-   > First of all, you have to put your own DB information on, line 66, in pigmong_db.py and line 31, in pigmong_main.py
+__"pigmong_db.py" 의 66,88 번째 라인, "pigmong_main.py" 의 31번째 라인의 DB 연결 코드를 본인걸로 바꿔주셔야 합니다.__   
+   > First of all, you have to put your own DB information on, line 66, 88 in pigmong_db.py and line 31, in pigmong_main.py
 ``` python
-## line 66, in pigmong_db.py
+## line 66, 88 in pigmong_db.py
 self.cnx = pymysql.connect(host='15.164.100.60', port=3306, user='root', password='password', database='pigmong')
 ## line 31, in pigmong_main.py
 cnx = pymysql.connect(host='15.164.100.60', port=3306, user='root', password='password', database='pigmong')
