@@ -85,7 +85,7 @@ class check_start(threading.Thread):
                 if self.paused:
                     self.state.wait()
                 try:
-                    self.cnx = pymysql.connect(host='15.164.100.60', port=3306, user='root', password='dl94585854', database='pigmong')
+                    self.cnx = pymysql.connect(host='15.164.100.60', port=3306, user='root', password='password', database='pigmong')
                 except:
                     print("Couldn't connect to database, retrying to connect")
                     continue
