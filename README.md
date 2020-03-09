@@ -73,6 +73,9 @@ __Google AIY Voice board 없으시면 라즈베리파이 그대로 사용하시�
 
 - __Data Flow Diagram__   
    <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Data_Flow_Diagram.png" width="800px" height="400px" title="Data_Flow_Diagram" alt="Data_Flow_Diagram"></img><br/>   
+   
+### Demo   
+<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/demo.gif" width="650px" height="400px" title="Pigmong demo" alt="Pigmong demo"></img>
 
 ### How to use?   
 __"pigmong_db.py" 의 66번째 라인, "pigmong_main.py" 의 31번째 라인의 DB 연결 코드를 본인걸로 바꿔주셔야 합니다.__   
