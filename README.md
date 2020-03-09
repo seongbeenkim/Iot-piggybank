@@ -1,6 +1,6 @@
 # Pigmong
-> __아이들의 꾸준한 저축 실천을 위한 디지털 저금통__   
-Digial Piggy Bank for child's steady saving practices   
+__아이들의 꾸준한 저축 실천을 위한 디지털 저금통__   
+>Digial Piggy Bank for child's steady saving practices   
 
 ### Service Introduction Video
 
@@ -61,10 +61,74 @@ API 연결하는 방법은 API 웹사이트나 구글에 검색하시면 쉽게 
 
 ### Features   
 __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s), 기능은 [Service features](https://youtu.be/k5D5-mXTpUw?t=102s) 에서 영상으로 보실 수 있습니다.__   
-  > You can see our service introdunction [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s), features [Service features](https://youtu.be/k5D5-mXTpUw?t=102s) on youtube (in Korean)
+  > You can see our service introdunction [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s), features [Service features](https://youtu.be/k5D5-mXTpUw?t=102s) on youtube (in Korean)   
+  
+- __Piggy Bank's Features__   
+   
+   __저장되어 있는 저금 관련 정보를 알려줍니다.__      
+   __LED, 귀의 각도를 통해서 저금통의 상태를 보여줍니다.__   
+   
+   __기본 상태__   
+   * __사용자의 음성을 듣고 있을 경우__   
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_listening.gif" width="150px" height="150px" title="Listening" alt="Listening"></img><br/>   
+   * __사용자의 음성 데이터를 분석중일 경우__   
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_process.gif" width="150px" height="150px" title="Processing" alt="Processing"></img><br/>   
+   * __저금통이 말할 경우__   
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_talk.gif" width="150px" height="150px" title="Talking" alt="Talking"></img><br/>   
+   
+   __그 외__
+   * __사용자가 저금한 금액 물어봤을 경우__   
+      
+     __"목표 금액 대비 현재까지 저금한 금액" 비율을 LED와 서보모터로 보여줍니다.__   
+     __LED 칸 8개 "100 / 8 = 12.5", 서보모터 180도 "180 / 8 = 22.5"__   
+     __비율 값만큼의 LED를 출력, 서보모터를 움직입니다.__   
+     - Servo motor - 0 ~ 180   
+     <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/servo_motor(ears).gif" width="200px" height="200px" title="servo_motor" alt="servo_motor"></img><br/>   
+     - LED - 0 ~ 8   
+     <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_percentage.gif" width="200px" height="200px" title="state_percentage" alt="state_percentage"></img><br/>  
+     - Example   
+     <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/showing_percentage.gif" width="300px" height="300px" title="showing_percentage" alt="showing_percentage"></img><br/>   
+     
+   * __목표한 금액 모두 모았을 경우__    
+   
+     __축하 음악을 틀어주며 LED를 빠르게 출력해줍니다.__   
+     - Example   
+   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/complete_saving.gif" width="300px" height="300px" title="complete_saving" alt="complete_saving"></img><br/>   
+   
+   * __데이터가 갱신될 경우__
+     
+     __데이터마다 알람소리를 다르게 재생하고 LED 출력하고 서보모터를 움직여 알려줍니다.__
+     - Example   
+     <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_alarm.gif" width="300px" height="300px" title="state_alarm" alt="state_alarm"></img><br/>   
+   
+   __저금통 테스트 비디오__   
+      
+   [![Test Video – Pigmong](http://img.youtube.com/vi/WiCvG09UwmM/0.jpg)](https://youtu.be/WiCvG09UwmM?t=0s "Test Video – Pigmong")   
+     
 
-- __App Storyboard__   
-<img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="900px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
+- __App's Features__     
+   
+   * __App's Storyboard__   
+      
+      __1. 아이 - 사고 싶은 물건 등록__   
+      __2. 부모 - 아이가 사고 싶은 물건을 확인 후 미션 주기__   
+      __3. 아이 - 부모가 준 미션 수행__   
+      __4. 부모 - 미션 완료 점검 후 용돈 지급__   
+      __5. 아이 - 용돈을 저금통에 저금__   
+      __6. 목표한 금액 다 모았을 경우 원하는 물건 구입 후 다시 1~5번 과정 반복__   
+      
+      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="900px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
+   
+   
+   * __App's demo__   
+      
+      * __미션 추가__   
+        　　　　   　　　__Child　　 　　　　　　　　　　　　　　　　　Parent__   
+     <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/app_demo1.gif" width="600px" height="400px" title="app_demo1" alt="app_demo1"></img><br/>   
+        
+      * __미션 수행 및 저금__   
+        　　　　   　　　__Child　　 　　　　　　　　　　　　　　　　　Parent__   
+     <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/app_demo_2.gif" width="600px" height="400px" title="app_demo_2" alt="app_demo_2"></img><br/> 
 
 - __Hardware Circuit Diagram__   
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/hardware.jpg" width="450px" height="450px" title="Hardware Circuit" alt="Hardware Circuit"></img><br/>   
@@ -77,7 +141,7 @@ __Google AIY Voice board 없으시면 라즈베리파이 그대로 사용하시�
 - __Data Flow Diagram__   
    <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Data_Flow_Diagram.png" width="800px" height="400px" title="Data_Flow_Diagram" alt="Data_Flow_Diagram"></img><br/>   
    
-### Demo   
+### Demo GIF
 <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/demo.gif" width="650px" height="400px" title="Pigmong demo" alt="Pigmong demo"></img>
 
 ### How to use?    
