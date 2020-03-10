@@ -65,23 +65,38 @@ __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)
   
 - __Piggy Bank's Features__   
    
-   __저장되어 있는 저금 관련 정보를 알려줍니다.__      
-   __LED, 귀의 각도를 통해서 저금통의 상태를 보여줍니다.__   
+   __저장되어 있는 저금 관련 정보를 알려줍니다.__   
+   __LED(입), 서보 모터(귀)의 각도를 통해서 저금통의 상태를 보여줍니다.__   
+   > The Piggy Bank gives you information related to your savings   
+     It shows you states of the Piggy Bank with LED(mouth) and Servo motor(ears)   
    
-   __기본 상태__   
+   __기본 상태(main states)__   
    * __사용자의 음성을 듣고 있을 경우__   
-   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_listening.gif" width="150px" height="150px" title="Listening" alt="Listening"></img><br/>   
-   * __사용자의 음성 데이터를 분석중일 경우__   
-   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_process.gif" width="150px" height="150px" title="Processing" alt="Processing"></img><br/>   
-   * __저금통이 말할 경우__   
-   <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_talk.gif" width="150px" height="150px" title="Talking" alt="Talking"></img><br/>   
+      > When listening to user's voice   
    
-   __그 외__
-   * __사용자가 저금한 금액 물어봤을 경우__   
+      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_listening.gif" width="150px" height="150px" title="Listening" alt="Listening"></img><br/>   
       
-     __"목표 금액 대비 현재까지 저금한 금액" 비율을 LED와 서보모터로 보여줍니다.__   
-     __LED 칸 8개 "100 / 8 = 12.5", 서보모터 180도 "180 / 8 = 22.5"__   
-     __비율 값만큼의 LED를 출력, 서보모터를 움직입니다.__   
+   * __사용자 음성 데이터를 분석중일 경우__   
+      > When parsing words from user voice data   
+      
+      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_process.gif" width="150px" height="150px" title="Processing" alt="Processing"></img><br/>   
+   
+   * __저금통이 말할 경우__   
+      > When talking to user   
+      
+      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_talk.gif" width="150px" height="150px" title="Talking" alt="Talking"></img><br/>   
+   
+   __그 외(the rest)__
+   * __사용자가 저금한 금액 물어봤을 경우__   
+      > When asking The Piggy Bank how much it's been saved   
+      
+     __"목표 금액 대비 현재까지 저금한 금액 비율" 을 LED와 서보모터로 보여줍니다.__   
+     __LED 8칸 "100 / 8 = 12.5" 각 칸 : 12.5%, 서보모터 180도 "180 / 8 = 22.5" LED 한 칸당 : 22.5__   
+     __비율 값만큼의 LED를 출력, 서보모터를 회전시킵니다.__   
+      > Showing "The ratio of the saved money compared to its goal" with LED anf Servo motor   
+        LED "100 / 8 = 12.5" each LED : 12.5%, 서보모터 180 degree "180 / 8 = 22.5" per each LED : 22.5"   
+        Rotating Servo motor and LED goes on as much as the ratio   
+     
      - Servo motor - 0 ~ 180   
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/servo_motor(ears).gif" width="200px" height="200px" title="servo_motor" alt="servo_motor"></img><br/>   
      - LED - 0 ~ 8   
@@ -90,18 +105,25 @@ __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/showing_percentage.gif" width="300px" height="300px" title="showing_percentage" alt="showing_percentage"></img><br/>   
      
    * __목표한 금액 모두 모았을 경우__    
+      > When achieving savings goal   
    
      __축하 음악을 틀어주며 LED를 빠르게 출력해줍니다.__   
+      > LED goes on fast playing a celebration song   
+      
      - Example   
    <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/complete_saving.gif" width="300px" height="300px" title="complete_saving" alt="complete_saving"></img><br/>   
    
-   * __데이터가 갱신될 경우__
+   * __데이터가 최신화 될 경우__   
+      > When data is updated   
      
-     __데이터마다 알람소리를 다르게 재생하고 LED 출력하고 서보모터를 움직여 알려줍니다.__
+     __데이터마다 알람소리를 다르게 재생하고 LED 출력하고 서보모터를 움직여 알려줍니다.__   
+      > Giving you notification by playing different alarm sounds depend on data, rotating Servo motor and turning on LED   
+      
      - Example   
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_alarm.gif" width="300px" height="300px" title="state_alarm" alt="state_alarm"></img><br/>   
    
     __저금통 테스트 비디오__   
+    > the Piggy Bank's test video     
       
      [![Test Video – Pigmong](http://img.youtube.com/vi/WiCvG09UwmM/0.jpg)](https://youtu.be/WiCvG09UwmM?t=0s "Test Video – Pigmong")   
      > Please click the image to watch the video (in Korean).
@@ -110,23 +132,35 @@ __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)
    
    * __App's Storyboard__   
       
+      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="900px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
+         
       __1. 아이 - 사고 싶은 물건 등록__   
       __2. 부모 - 아이가 사고 싶은 물건을 확인 후 미션 주기__   
       __3. 아이 - 부모가 준 미션 수행__   
       __4. 부모 - 미션 완료 점검 후 용돈 지급__   
       __5. 아이 - 용돈을 저금통에 저금__   
       __6. 목표한 금액 다 모았을 경우 원하는 물건 구입 후 다시 1~5번 과정 반복__   
-      
-      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/Storyboard.png" width="900px" height="450px" title="Storyboard" alt="Storyboard"></img><br/>   
+         
+         
+      > 1: Child - Set up a goal   
+      > 2: Parent - Check the goal and give assignments   
+      > 3: Child - Complete the assignments   
+      > 4: Parent - Check if the assignments is done and send pocket money   
+      > 5: Child - Save money to Piggy Bank   
+      > 6: When you achieve your goal, you can get your goal and repeat the 1 ~ 5 process.     
    
    
    * __App's demo__   
       
       * __미션 추가__   
+         > Giving assignments   
+      
         　　　　   　　　__Child　　 　　　　　　　　　　　　　　　　　Parent__   
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/app_demo1.gif" width="600px" height="400px" title="app_demo1" alt="app_demo1"></img><br/>   
         
       * __미션 수행 및 저금__   
+         > Completing assignments and Saving      
+         
         　　　　   　　　__Child　　 　　　　　　　　　　　　　　　　　Parent__   
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/app_demo_2.gif" width="600px" height="400px" title="app_demo_2" alt="app_demo_2"></img><br/> 
 
