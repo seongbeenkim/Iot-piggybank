@@ -121,6 +121,12 @@ __서비스 소개는 [Pigmong introduction](https://youtu.be/k5D5-mXTpUw?t=69s)
       
      - Example   
      <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_alarm.gif" width="300px" height="300px" title="state_alarm" alt="state_alarm"></img><br/>   
+     
+   * __저금통 모든 상태를 보여주는 비디오__
+      > the Piggy Bank's all states    
+      
+     [![All states – Pigmong](http://img.youtube.com/vi/BkBq-P0q2wQ/0.jpg)](https://youtu.be/BkBq-P0q2wQ?t=0s "All states – Pigmong")   
+     > Please click the image to watch the video (in Korean).   
    
     __저금통 테스트 비디오__   
     > the Piggy Bank's test video     
