@@ -65,9 +65,9 @@ __You can watch our service introdunction [Pigmong introduction](https://youtu.b
       <img src="https://github.com/seongbeenkim/Iot-piggybank/blob/master/img/state_talk.gif" width="150px" height="150px" title="Talking" alt="Talking"></img><br/>   
    
    __The rest__
-   * __When getting asked how much it's been saved__   
+   * __When getting asked how much it's been saved up__   
       
-     __Showing "The ratio of the saved money compared to its goal" with LED anf Servo motor__   
+     __Showing "The ratio of money saved up compared to its goal" with LED anf Servo motor__   
      __LED "100 / 8 = 12.5" each LED : 12.5%, Servo motor 180 degree "180 / 8 = 22.5" per each LED : 22.5"__   
      __LEDs come on as much as the ratio, rotating the servo moter.__   
      
@@ -112,7 +112,7 @@ __You can watch our service introdunction [Pigmong introduction](https://youtu.b
       __2. Parent - Check the goal and give the child assignments with the amount of money that the child would get when the child does__   
       __3. Child - Complete the assignments__    
       __4. Parent - Check if the assignments is done properly and then send the pocket money__   
-      __5. Child - Save money to the piggy bank__   
+      __5. Child - Save up money to the piggy bank__   
       __6. When you accomplish your goal, you can get your goal and repeat the 1 ~ 5 process.__      
    
    
