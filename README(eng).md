@@ -14,7 +14,7 @@ __Digial Piggy Bank for child's steady saving practices__
 
 
 ### Motivation   
-- __A sense of economy of childhood influences on adult's one, so we've made pigmong to make children perceive the value of money and the habit of planned saving rightly__    
+- __A sense of economy in childhood is a positive influence on adult habits. We’ve created pigmong to help children perceive the value of smart monetary saving and planning.__    
 
 ### Installation
 - __You need to set up on your Raspberry pi for some API before using the project.   
